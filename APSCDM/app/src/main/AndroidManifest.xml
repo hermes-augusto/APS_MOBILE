@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apscdm">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MostraLivro"></activity>
+        <activity android:name=".MostraEmprestimo" />
+        <activity android:name=".ConsultaDadosLivroDeletar" />
+        <activity android:name=".ConsultaDadosLivroAlterar" />
+        <activity android:name=".ConsultaDadosEmprestimoDeletar" />
+        <activity android:name=".ConsultaDadosEmprestimoAlterar" />
+        <activity android:name=".ConsultaDadosCategoriaLivroDeletar" />
+        <activity android:name=".ConsultaDadosCategoriaLivroAlterar" />
+        <activity android:name=".ConsultaDadosCategoriaLeitorDeletar" />
+        <activity android:name=".ConsultaDadosCategoriaLeitorAlterar" />
+        <activity android:name=".ConsultaDadosClienteDeletar" />
+        <activity android:name=".ConsultaDadosClienteAlterar" />
+        <activity android:name=".TelaConsultar" />
+        <activity android:name=".TelaDeletar" />
+        <activity android:name=".TelaAlterar" />
+        <activity android:name=".TelaCadastrar" />
+        <activity android:name=".TelaInicial" />
+        <activity android:name=".ConsultaLivro" />
+        <activity android:name=".TelaLogin" />
+        <activity android:name=".DeletaLivro" />
+        <activity android:name=".DeletaCategoriaLeitor" />
+        <activity android:name=".DeletaCategoriaLivro" />
+        <activity android:name=".DeletaEmprestimo" />
+        <activity android:name=".DeletaCliente" />
+        <activity android:name=".AlteraLivro" />
+        <activity android:name=".AlteraEmprestimo" />
+        <activity android:name=".CadastroEmprestimo" />
+        <activity android:name=".AlteraCategoriaLeitor" />
+        <activity android:name=".AlteraCategoriaLivro" />
+        <activity android:name=".AlteraCliente" />
+        <activity android:name=".CadastroLivro" />
+        <activity android:name=".CadastroCategoriaLivro" />
+        <activity android:name=".CadastroCategoriaLeitor" />
+        <activity android:name=".CadastroCliente" />
+        <activity android:name=".CarregaLivro" />
+        <activity android:name=".CarregaEmprestimo" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
